@@ -17,16 +17,19 @@ This project implements a simple Caesar Cipher encryption and decryption tool. T
 
 ### Steps to Run the Project 
 1. Clone the repository:
+
 >git clone https://github.com/kulachynskyioleksandr/encryptor.kulachynskyi.oleksandr
 
-2. Navigate to the project directory:
->cd caesar-cipher
+2. Open the project in IntelliJ IDEA:
+- Open IntelliJ IDEA, click on Open, and select the cloned project directory.
 
-3. Compile the project:
->javac -d out src/com/caesarcipher/**/*.java
+3. Build the project:
+- IntelliJ will automatically detect and build the project. If not, go to Build > Build Project.
 
 4. Run the program:
->java -jar encryptor.kulachynskyi.oleksandr.jar
+- Go to Run > Edit Configurations.
+- Create a new Application configuration and select your main class (encryptor.kulachynskyi.oleksandr.Main). 
+- Click Run to execute the program.
 
 
 
@@ -35,16 +38,16 @@ This project implements a simple Caesar Cipher encryption and decryption tool. T
 ### To encrypt:
 
 You can run the program directly with arguments:
->java -jar encryptor.kulachynskyi.oleksandr.jar <ENCRYPT/DECRYPT> <file-path> <key>
+>java -jar ".../encryptor.kulachynskyi.oleksandr.jar" (ENCRYPT/DECRYPT) ("file-path") (key)
 
 Example:
->java -jar encryptor.kulachynskyi.oleksandr.jar ENCRYPT input.txt 3
+>java -jar ".../encryptor.kulachynskyi.oleksandr.jar" ENCRYPT ".../input.txt" 3
 
 `This will create a new file input[ENCRYPTED].txt with encrypted content.`
 
 
 ### To decrypt:
->java -jar encryptor.kulachynskyi.oleksandr.jar DECRYPT input.txt 3
+>java -jar ".../encryptor.kulachynskyi.oleksandr.jar" DECRYPT ".../input.txt" 3
 
 `This will create a new file input[DECRYPTED].txt with the original content restored.`
 
