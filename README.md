@@ -16,9 +16,7 @@ This project implements a simple Caesar Cipher encryption and decryption tool. T
 ## 🛠️ Installation and Setup
 
 ### Steps to Run the Project 
-1. Clone the repository:
-
->git clone https://github.com/kulachynskyioleksandr/encryptor.kulachynskyi.oleksandr
+1. Clone the repository.
 
 2. Open the project in IntelliJ IDEA:
 - Open IntelliJ IDEA, click on Open, and select the cloned project directory.
