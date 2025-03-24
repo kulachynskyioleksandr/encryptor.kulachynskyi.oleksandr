@@ -15,16 +15,15 @@ public class Main {
             CaesarCipher cipher = new CaesarCipher(key);
 
             switch (command) {
-                case "ENCRYPT":
+                case "ENCRYPT" -> {
                     cipher.encryptFile(filePath);
                     System.out.println("File encrypted successfully!");
-                    break;
-                case "DECRYPT":
+                }
+                case "DECRYPT" -> {
                     cipher.decryptFile(filePath);
                     System.out.println("File decrypted successfully!");
-                    break;
-                default:
-                    System.out.println("Invalid command! Use ENCRYPT or DECRYPT.");
+                }
+                default -> System.out.println("Invalid command! Use ENCRYPT or DECRYPT.");
             }
         } else {
             CLI.mainMenu();

@@ -18,7 +18,7 @@ public class CaesarCipher {
         this.key = InputValidator.validateKey(key) % alphabetSize;
     }
 
-    public String encrypt(String text) {
+    private String encrypt(String text) {
         StringBuilder encryptedText = new StringBuilder();
 
         for (char letter : text.toCharArray()) {
@@ -34,7 +34,7 @@ public class CaesarCipher {
         return encryptedText.toString();
     }
 
-    public String decrypt(String text) {
+    private String decrypt(String text) {
         StringBuilder decryptedText = new StringBuilder();
 
         for (char letter : text.toCharArray()) {
