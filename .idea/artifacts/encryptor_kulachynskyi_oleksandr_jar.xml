@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="encryptor.kulachynskyi.oleksandr:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/encryptor_kulachynskyi_oleksandr_jar</output-path>
+    <root id="archive" name="encryptor.kulachynskyi.oleksandr.jar">
+      <element id="module-output" name="encryptor.kulachynskyi.oleksandr" />
+    </root>
+  </artifact>
+</component>
